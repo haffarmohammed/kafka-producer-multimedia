@@ -1,5 +1,3 @@
-package fr.mhaffar;
-
 import com.launchdarkly.eventsource.EventHandler;
 import com.launchdarkly.eventsource.EventSource;
 import org.apache.kafka.clients.producer.KafkaProducer;
@@ -58,3 +56,4 @@ public class WikimediaChangesProducer {
 
 
 }
+

@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "fr.mhaffar"
-version = "1.0-SNAPSHOT"
+version = "unspecified"
 
 repositories {
     mavenCentral()
@@ -24,7 +24,6 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.launchdarkly/okhttp-eventsource
     implementation("com.launchdarkly:okhttp-eventsource:2.5.0")
-
 }
 
 tasks.test {

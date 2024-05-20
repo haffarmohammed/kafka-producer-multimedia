@@ -1,5 +1,3 @@
-package fr.mhaffar;
-
 import com.launchdarkly.eventsource.EventHandler;
 import com.launchdarkly.eventsource.MessageEvent;
 import org.apache.kafka.clients.producer.KafkaProducer;
@@ -49,3 +47,4 @@ public class WikimediaChangeHandler implements EventHandler {
         log.error("Error in Stream Reading", throwable);
     }
 }
+
